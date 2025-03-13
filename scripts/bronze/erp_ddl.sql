@@ -16,7 +16,7 @@ GO
 
 CREATE TABLE bronze.erp_cust_az12(
 	cid	  NVARCHAR(50),
-	dbate DATE,
+	bdate DATE,
 	gen   NVARCHAR(50)
 );
 
@@ -32,7 +32,7 @@ CREATE TABLE bronze.erp_loc_a101(
 
 ------- Creating loc A101 table -------
 IF OBJECT_ID('bronze.erp_px_cat_g1v2', 'U') IS NOT NULL
-	DROP TABLE bronze.px_cat_G1V2;
+	DROP TABLE bronze.px_cat_g1v2;
 GO
 
 CREATE TABLE bronze.erp_px_cat_g1v2(
